@@ -1,6 +1,6 @@
 function node_prompt_version {
     if which node &> /dev/null; then
-        echo "%{$fg_bold[blue]%}  (%{$fg[red]%}$(node -v)%{$fg[blue]%}) %{$reset_color%}"
+        echo "%{$fg_bold[blue]%} ⬢(%{$fg[red]%}$(node -v)%{$fg[blue]%}) %{$reset_color%}"
     fi
 }
 
